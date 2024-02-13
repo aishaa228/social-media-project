@@ -1,0 +1,36 @@
+1 virtual env 
+py -m venv venv
+
+
+2 django framework
+
+pip install django
+
+
+3 create project
+
+django-admin startproject social_media_app
+
+4 project run
+
+py manage.py runserver
+
+==============================================
+
+github cmd
+
+…or create a new repository on the command line
+echo "# social-media-project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aishaa228/social-media-project.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/aishaa228/social-media-project.git
+git branch -M main
+git push -u origin main
